@@ -1,0 +1,17 @@
+.gridWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, calc(33% - 5px));
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 420px) {
+    .gridWrapper { 
+        grid-template-columns: repeat(2, 50%);
+    }
+}

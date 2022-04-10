@@ -1,0 +1,8 @@
+.ratingWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.ratingValue {
+    font-size: 14px;
+}

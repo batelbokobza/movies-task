@@ -1,0 +1,24 @@
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+} 
+
+.resultCardWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #0000001a;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.movieName {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.valuePrefix {
+    font-weight: 700;
+}
+
